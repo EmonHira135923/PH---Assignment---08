@@ -1,5 +1,5 @@
 import React from "react";
-import HeroIcon from "..//assets/All Image/logo.png";
+import HeroIcon from "../../assets/All Image/logo.png";
 import { Facebook, Linkedin, Twitter } from "lucide-react";
 import { NavLink } from "react-router";
 const Footer = () => {

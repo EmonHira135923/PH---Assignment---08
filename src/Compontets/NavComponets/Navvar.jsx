@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X, Github, House, Download, LayoutGrid } from "lucide-react";
 import { NavLink } from "react-router";
-import HeroIcon from "../assets/All Image/logo.png";
+import HeroImg from "../../assets/All Image/logo.png";
 
 const Navvar = () => {
   const activeclass =
@@ -20,7 +20,7 @@ const Navvar = () => {
           </div>
           <NavLink className="flex gap-2 items-center" to="/">
             <img
-              src={HeroIcon}
+              src={HeroImg}
               alt="Hero-Icon"
               className="md:w-15 md:h-15 object-cover w-7 h-7"
             />

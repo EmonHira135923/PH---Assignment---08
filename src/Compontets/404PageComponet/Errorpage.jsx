@@ -1,9 +1,8 @@
 import React from "react";
-
-import ErrorImg from "..//..//assets/All Image/error-404.png";
+import ErrorImg from "../../assets/All Image/error-404.png";
 import { useNavigate } from "react-router";
-import Navvar from "../../NavComponets/Navvar";
-import Footer from "../../FooterComponets/Footer";
+import Navvar from "../NavComponets/Navvar";
+import Footer from "../FooterComponets/Footer";
 
 const ErrorPage = () => {
   const navigation = useNavigate();

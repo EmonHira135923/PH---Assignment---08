@@ -1,10 +1,11 @@
 import React from "react";
-import Navvar from "../../NavComponets/Navvar";
-import Footer from "../../FooterComponets/Footer";
+
 import ErrorImg from "..//..//assets/All Image/error-404.png";
 import { useNavigate } from "react-router";
+import Navvar from "../../NavComponets/Navvar";
+import Footer from "../../FooterComponets/Footer";
 
-const Errorpage = () => {
+const ErrorPage = () => {
   const navigation = useNavigate();
   return (
     <div>
@@ -37,4 +38,4 @@ const Errorpage = () => {
   );
 };
 
-export default Errorpage;
+export default ErrorPage;

@@ -4,6 +4,8 @@ import { NavLink } from "react-router";
 import HeroIcon from "../assets/All Image/logo.png";
 
 const Navvar = () => {
+  const activeclass =
+    "border-b-2 border-[#632ee3] bg-clip-text bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-transparent font-bold";
   const [toggle, settoggle] = useState(true);
 
   return (
@@ -28,22 +30,53 @@ const Navvar = () => {
           </NavLink>
         </div>
         <div
-          className={` flex flex-col md:hidden mt-1 ml-1 absolute bg-gray-300 p-5 rounded-xl ${
+          className={` flex flex-col md:hidden mt-1 ml-1 absolute bg-white font-light text-xl p-5 rounded-xl ${
             toggle ? "-top-80 " : " top-22 -left-0 space-y-3"
           }`}
         >
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/app">Apps</NavLink>
-          <NavLink to="/install">Installation</NavLink>
+          <NavLink
+            to="/"
+            className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/app"
+            className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
+          >
+            Apps
+          </NavLink>
+          <NavLink
+            to="/install"
+            className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
+          >
+            Installation
+          </NavLink>
         </div>
+        {/* center */}
         <div className="md:flex items-center gap-5 hidden">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/app">Apps</NavLink>
-          <NavLink to="/install">Installation</NavLink>
+          <NavLink
+            to="/"
+            className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/app"
+            className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
+          >
+            Apps
+          </NavLink>
+          <NavLink
+            to="/install"
+            className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
+          >
+            Installation
+          </NavLink>
         </div>
         {/* end */}
         <div className="flex">
-          <button className="btn text-white bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-xl py-6 px-5 md:p-7 md:w-40 ">
+          <button className="btn text-white bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-xl py-6 px-5 md:p-7 md:w-40 hover:from-[#4b1fe0] hover:to-[#4b1fe0] ">
             <NavLink
               target="_blank"
               className="flex items-center gap-2"

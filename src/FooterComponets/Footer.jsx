@@ -1,6 +1,7 @@
 import React from "react";
 import HeroIcon from "..//assets/All Image/logo.png";
 import { Facebook, Linkedin, Twitter } from "lucide-react";
+import { NavLink } from "react-router";
 const Footer = () => {
   return (
     <footer className="max-w-[1400px] mx-auto bg-[#001931] p-6 md:p-12 text-white">
@@ -21,12 +22,22 @@ const Footer = () => {
             Social Icon
           </p>
           <div className="flex gap-4 mt-2">
-            <Twitter />
-            <Facebook />
-            <Linkedin />
+            <NavLink to={`https://x.com/hira_bd`} target="_blank">
+              <Twitter className="hover:text-purple-600 " />
+            </NavLink>
+            <NavLink to={`https://www.facebook.com/Emon1359`} target="_blank">
+              <Facebook className="hover:text-purple-600 " />
+            </NavLink>
+            <NavLink
+              to={`https://www.linkedin.com/in/emon135923/`}
+              target="_blank"
+            >
+              <Linkedin className="hover:text-purple-600 " />
+            </NavLink>
           </div>
         </div>
       </div>
+      <hr className="mt-5 text-gray-500" />
       <div className="mt-6 md:mt-10 flex items-center justify-center text-sm md:text-xl">
         <p>Copyright © 2025 - All rights reserved</p>
       </div>

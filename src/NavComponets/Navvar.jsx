@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Menu, X, Github } from "lucide-react";
+import { Menu, X, Github, House, Download, LayoutGrid } from "lucide-react";
 import { NavLink } from "react-router";
 import HeroIcon from "../assets/All Image/logo.png";
 
 const Navvar = () => {
   const activeclass =
-    "border-b-2 border-[#632ee3] bg-clip-text bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-transparent font-bold";
+    "border-b-2 border-[#632ee3] bg-clip-text bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-purple-700 font-bold";
   const [toggle, settoggle] = useState(true);
 
   return (
@@ -38,19 +38,26 @@ const Navvar = () => {
             to="/"
             className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
           >
-            Home
+            <span className="flex  gap-1 ">
+              <House />
+              Home
+            </span>
           </NavLink>
           <NavLink
             to="/app"
             className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
           >
-            Apps
+            <span className="flex  gap-1">
+              <LayoutGrid /> App
+            </span>
           </NavLink>
           <NavLink
             to="/install"
             className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
           >
-            Installation
+            <span className="flex  gap-1r">
+              <Download /> Installation
+            </span>
           </NavLink>
         </div>
         {/* center */}
@@ -59,19 +66,26 @@ const Navvar = () => {
             to="/"
             className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
           >
-            Home
+            <span className="flex  gap-1 justify-center items-center">
+              <House />
+              Home
+            </span>
           </NavLink>
           <NavLink
             to="/app"
             className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
           >
-            Apps
+            <span className="flex  gap-1 justify-center items-center">
+              <LayoutGrid /> App
+            </span>
           </NavLink>
           <NavLink
             to="/install"
             className={({ isActive }) => ` ${isActive ? activeclass : ""}`}
           >
-            Installation
+            <span className="flex  gap-1 justify-center items-center">
+              <Download /> Installation
+            </span>
           </NavLink>
         </div>
         {/* end */}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/pHf7YCz/Keep-Notes.png",
+    "title": "Google Keep",
+    "companyName": "Google LLC",
+    "description": "Capture, edit, and share notes from anywhere. Sync your notes across devices.",
+    "size": 50,
+    "reviews": 50000,
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/39N5r0kZ/Gogle-Chrome.jpg",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "description": "Browse the internet with speed and efficiency. Sync your bookmarks and passwords.",
+    "size": 80,
+    "reviews": 75000,
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/cSp61TvB/Instara.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Share photos and videos, connect with friends, and discover content you love.",
+    "size": 120,
+    "reviews": 100000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/jZqbW13B/whatsup.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Send messages and make calls over the internet. Share photos, videos, and documents.",
+    "size": 150,
+    "reviews": 120000,
+    "ratingAvg": 4.8,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/TDJvNq0r/Spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify Technology S.A.",
+    "description": "Stream music and podcasts. Discover new artists and create playlists.",
+    "size": 200,
+    "reviews": 150000,
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/BVHFZMnH/Telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
+    "description": "Send messages, create groups, and share media with your contacts.",
+    "size": 100,
+    "reviews": 80000,
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/YHfYjvH/Goglemap.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Navigate your world faster and easier. Find the best places in your area.",
+    "size": 250,
+    "reviews": 200000,
+    "ratingAvg": 4.8,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 80000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/gNb3K1M/Youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "Watch videos, subscribe to channels, and share content you love.",
+    "size": 180,
+    "reviews": 250000,
+    "ratingAvg": 4.7,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 180000 }
+    ]
+  }
+]

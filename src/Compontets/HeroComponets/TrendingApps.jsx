@@ -18,7 +18,11 @@ const TrendingApps = ({ HomeApp }) => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {HomeApps.map((data) => (
-          <ShowCard key={data.id} data={data}></ShowCard>
+          <ShowCard
+            key={data.id}
+            onClick={() => navigate(`/app/app-details/${data.id}`)}
+            data={data}
+          ></ShowCard>
         ))}
       </div>
       <div className="flex justify-center items-center mt-10">

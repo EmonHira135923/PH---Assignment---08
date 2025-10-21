@@ -19,7 +19,7 @@ const Banner = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="btn btn-default w-full sm:w-auto flex items-center gap-2 justify-center">
+          <button className="btn btn-default w-full sm:w-auto flex text-black p-5 hover:text-white items-center gap-2 justify-center hover:bg-[#632ee3]">
             <NavLink
               to={`https://play.google.com/store/apps?hl=en`}
               target="_blank"
@@ -33,7 +33,7 @@ const Banner = () => {
               Google Play
             </NavLink>
           </button>
-          <button className="btn btn-default w-full sm:w-auto flex items-center gap-2 justify-center">
+          <button className="btn btn-default w-full sm:w-auto hover:text-white p-5 hover:bg-[#632ee3] flex items-center gap-2 justify-center">
             <NavLink
               to={`https://www.apple.com/app-store/`}
               target="_blank"

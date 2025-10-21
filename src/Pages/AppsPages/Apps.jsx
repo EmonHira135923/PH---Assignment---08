@@ -1,9 +1,12 @@
 import React from "react";
+import AppsAllCard from "../../Compontets/AppsComponts/AppsAllCard";
+import { useLoaderData } from "react-router";
 
 const Apps = () => {
+  const AppsLoaddata = useLoaderData();
   return (
     <div>
-      <h1>Hero Apps</h1>
+      <AppsAllCard AppsLoaddata={AppsLoaddata}></AppsAllCard>
     </div>
   );
 };

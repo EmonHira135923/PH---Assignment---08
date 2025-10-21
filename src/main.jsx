@@ -3,11 +3,11 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import "./index.css";
-import App from "./App.jsx";
-import Home from "./Compontets/Homecomponets/Home.jsx";
-import Install from "./Compontets/InstallationComponet/Install.jsx";
 import Root from "./Root/Root.jsx";
-import ErrorPage from "./Compontets/404PageComponet/Errorpage.jsx";
+import Home from "./Pages/HomePages/Home.jsx";
+import Installation from "./Pages/InstallationPages/Installation.jsx";
+import Apps from "./Pages/AppsPages/Apps.jsx";
+import ErrorPage from "./Pages/404ErrorPages/ErrorPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       { index: true, Component: Home },
-      { path: "/app", Component: App },
-      { path: "/install", Component: Install },
+      { path: "/app", Component: Apps },
+      { path: "/install", Component: Installation },
     ],
   },
 ]);

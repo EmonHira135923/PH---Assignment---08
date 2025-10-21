@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/pHf7YCz/Keep-Notes.png",
+    "title": "Google Keep",
+    "companyName": "Google LLC",
+    "description": "Capture, edit, and share notes from anywhere. Sync your notes across devices.",
+    "size": 50,
+    "reviews": 50000,
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/39N5r0kZ/Gogle-Chrome.jpg",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "description": "Browse the internet with speed and efficiency. Sync your bookmarks and passwords.",
+    "size": 80,
+    "reviews": 75000,
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/cSp61TvB/Instara.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Share photos and videos, connect with friends, and discover content you love.",
+    "size": 120,
+    "reviews": 100000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/jZqbW13B/whatsup.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Send messages and make calls over the internet. Share photos, videos, and documents.",
+    "size": 150,
+    "reviews": 120000,
+    "ratingAvg": 4.8,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/TDJvNq0r/Spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify Technology S.A.",
+    "description": "Stream music and podcasts. Discover new artists and create playlists.",
+    "size": 200,
+    "reviews": 150000,
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/BVHFZMnH/Telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
+    "description": "Send messages, create groups, and share media with your contacts.",
+    "size": 100,
+    "reviews": 80000,
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/YHfYjvH/Goglemap.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Navigate your world faster and easier. Find the best places in your area.",
+    "size": 250,
+    "reviews": 200000,
+    "ratingAvg": 4.8,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 80000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/gNb3K1M/Youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "Watch videos, subscribe to channels, and share content you love.",
+    "size": 180,
+    "reviews": 250000,
+    "ratingAvg": 4.7,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 180000 }
+    ]
+  },
+
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/pBVsG8f2/Facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Connect with friends and family, share updates and media, and explore communities.",
+    "size": 170,
+    "reviews": 220000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 150000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/MxQWgvj5/Tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "Create and share short videos, follow trends, and explore viral content.",
+    "size": 130,
+    "reviews": 180000,
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 120000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/pvWWKJtZ/Snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Share photos and videos, chat with friends, and explore augmented reality experiences.",
+    "size": 110,
+    "reviews": 90000,
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/bjFMBN6T/Reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit, Inc.",
+    "description": "Discover news, content, and communities. Join discussions and upvote content you like.",
+    "size": 140,
+    "reviews": 95000,
+    "ratingAvg": 4.3,
+    "downloads": "400M",
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/27yLLs22/slack.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "description": "Collaborate with your team, organize projects, and communicate effectively.",
+    "size": 150,
+    "reviews": 85000,
+    "ratingAvg": 4.5,
+    "downloads": "600M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/7xLkpjXQ/Microsoft.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "description": "Chat, meet, and collaborate with your team securely and efficiently.",
+    "size": 200,
+    "reviews": 120000,
+    "ratingAvg": 4.6,
+    "downloads": "700M",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/LddswhJ7/DropBox.png",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "description": "Store and share files securely, access them anywhere, and collaborate with others.",
+    "size": 180,
+    "reviews": 90000,
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+    "title": "Notion",
+    "companyName": "Notion Labs Inc.",
+    "description": "Organize your notes, tasks, and projects in one workspace. Collaborate with your team.",
+    "size": 130,
+    "reviews": 70000,
+    "ratingAvg": 4.5,
+    "downloads": "400M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/zVCTdqPG/Canva.jpg",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "description": "Create stunning designs, presentations, and social media posts easily.",
+    "size": 110,
+    "reviews": 95000,
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/8nrHMkYF/Photoshop.jpg",
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc.",
+    "description": "Edit and create professional images, graphics, and designs on your device.",
+    "size": 250,
+    "reviews": 110000,
+    "ratingAvg": 4.7,
+    "downloads": "600M",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/kVfTkTfT/Reader.jpg",
+    "title": "Adobe Acrobat Reader",
+    "companyName": "Adobe Inc.",
+    "description": "View, sign, and annotate PDFs. Access your documents anywhere.",
+    "size": 180,
+    "reviews": 85000,
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/KxPWQKDY/Bussiness.jpg",
+    "title": "WhatsApp Business",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Communicate with your customers and grow your business efficiently.",
+    "size": 160,
+    "reviews": 70000,
+    "ratingAvg": 4.6,
+    "downloads": "400M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  }
+]

@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     Component: Root,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
-      { index: true, loader: () => fetch("/Home_Card.json"), Component: Home },
+      { index: true, loader: () => fetch("/AllCard.json"), Component: Home },
       { path: "/app", Component: Apps },
       { path: "/install", Component: Installation },
     ],

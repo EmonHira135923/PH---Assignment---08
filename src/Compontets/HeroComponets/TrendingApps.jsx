@@ -3,6 +3,7 @@ import ShowCard from "./ShowCard";
 import { useNavigate } from "react-router";
 
 const TrendingApps = ({ HomeApp }) => {
+  const HomeApps = HomeApp.slice(0, 8);
   const navigate = useNavigate();
   return (
     <section className="max-w-[1400px] mx-auto bg-gray-100 px-4 py-16">
@@ -16,7 +17,7 @@ const TrendingApps = ({ HomeApp }) => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {HomeApp.map((data) => (
+        {HomeApps.map((data) => (
           <ShowCard key={data.id} data={data}></ShowCard>
         ))}
       </div>

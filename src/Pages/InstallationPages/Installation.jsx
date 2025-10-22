@@ -1,9 +1,10 @@
 import React from "react";
+import InstallHome from "../../Compontets/Installationcompontes/InstallHome";
 
 const Installation = () => {
   return (
     <div>
-      <h1>This is installation</h1>
+      <InstallHome></InstallHome>
     </div>
   );
 };

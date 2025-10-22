@@ -9,6 +9,8 @@ import Installation from "./Pages/InstallationPages/Installation.jsx";
 import Apps from "./Pages/AppsPages/Apps.jsx";
 import ErrorPage from "./Pages/404ErrorPages/ErrorPage.jsx";
 import AppsDetails from "./Compontets/AppsComponts/AppsDetails.jsx";
+import AppsNotFound from "./Pages/404ErrorPages/AppsNotFound.jsx";
+import { ToastContainer } from "react-toastify";
 
 const router = createBrowserRouter([
   {
@@ -31,5 +33,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router}></RouterProvider>
+    <ToastContainer></ToastContainer>
   </StrictMode>
 );

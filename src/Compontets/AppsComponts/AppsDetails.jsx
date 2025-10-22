@@ -66,7 +66,7 @@ const AppsDetails = () => {
           </h2>
 
           <p className="text-gray-700 text-lg md:text-xl lg:text-2xl leading-relaxed">
-            {data.description}
+            {data.companyName}
           </p>
 
           <hr className="border-gray-300" />
@@ -134,7 +134,9 @@ const AppsDetails = () => {
       <hr className="mt-8 mb-5 border-gray-400" />
       <div className="max-w-[1400px] mx-auto">
         <h1 className="text-2xl font-bold mb-4">Description</h1>
-        <div className="flex flex-col space-y-5 gap-8 text-gray-700">
+        <div className="flex flex-col  space-y-5 gap-8 text-gray-700">
+          <p>{data.description}</p>
+          <p>{data.description}</p>
           <p>{data.description}</p>
           <p>
             Most modern applications now come with advanced features powered by
